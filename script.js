@@ -1,5 +1,5 @@
-let playerO;
-let playerX
+let  playerO = prompt("Please Enter your name playerO.");
+let  playerX = prompt("Please Enter your name playerX.");
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-game");
